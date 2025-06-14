@@ -34,8 +34,10 @@ chmod +x lockbox.py
 
 # 5. Run (with sudo for proper permissions)
 sudo ./lockbox.py
-``` ```
-### Windows
+```
+
+### Windows 
+```
 # 1. Install Python 3 (run as Administrator)
 winget install Python.Python.3.10 --accept-package-agreements --accept-source-agreements
 
@@ -48,8 +50,9 @@ python -m pip install cryptography pyperclip
 
 # 4. Run as Admin
 Start-Process python -ArgumentList "lockbox.py" -Verb RunAs
-``` ```
+``` 
 ### macOS
+```
 # 1. Install Homebrew if not already installed
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
