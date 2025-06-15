@@ -4,7 +4,7 @@
 
 ### A secure command-line password manager with military-grade encryption and intuitive features.
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
