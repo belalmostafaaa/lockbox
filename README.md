@@ -1,8 +1,8 @@
 # 🔒 LockBox Password Manager
 
-![LockBox Banner](https://i.imgur.com/JQ7Z8lE.gif) *(Replace with your demo GIF)*
 
-A secure command-line password manager with military-grade encryption and intuitive features.
+
+### A secure command-line password manager with military-grade encryption and intuitive features.
 
 ## ✨ Features
 
@@ -42,7 +42,7 @@ sudo ./lockbox.py
 winget install Python.Python.3.10 --accept-package-agreements --accept-source-agreements
 
 # 2. Clone repository (requires git installed)
-git clone https://github.com/YOURUSERNAME/lockbox.git
+git clone https://github.com/belalmostafaaa/lockbox.git
 cd lockbox
 
 # 3. Install dependencies
@@ -60,7 +60,7 @@ Start-Process python -ArgumentList "lockbox.py" -Verb RunAs
 brew install python-tk
 
 # 3. Clone the repository
-git clone https://github.com/YOURUSERNAME/lockbox.git
+git clone https://github.com/belalmostafaaa/lockbox.git
 cd lockbox
 
 # 4. Install Python packages
@@ -69,3 +69,15 @@ pip3 install cryptography pyperclip
 # 5. Run with sudo
 sudo python3 lockbox.py
 ```
+
+## Running
+### Linux/macOS:
+```
+sudo ./lockbox.py
+```
+### Windows:
+```
+python lockbox.py
+```
+
+## Note: The terminal or Powershell must be run as Adminstrator
