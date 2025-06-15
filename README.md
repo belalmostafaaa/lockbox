@@ -8,13 +8,13 @@
 
 | Feature | Description |
 |---------|-------------|
-| 🔐 **Secure Storage** | AES-256 encrypted vault |
-| 🎲 **Password Generation** | Create 16-character strong passwords |
-| 🔍 **Instant Search** | Fuzzy-find passwords in milliseconds |
-| 📁 **Cross-Platform** | Windows/macOS/Linux support |
-| 🛡️ **Zero Trust** | No internet connection needed |
+|  **Secure Storage** | AES-256 encrypted vault |
+|  **Password Generation** | Create 16-character strong passwords |
+|  **Instant Search** | Fuzzy-find passwords in milliseconds |
+|  **Cross-Platform** | Windows/macOS/Linux support |
+|  **Zero Trust** | No internet connection needed |
 
-## 🛠️ Installation
+##  Installation
 
 ### Linux
 ```bash
