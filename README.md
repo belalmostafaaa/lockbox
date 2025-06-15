@@ -1,4 +1,4 @@
-# 🔒 LockBox Password Manager
+#  LockBox Password Manager
 
 
 
