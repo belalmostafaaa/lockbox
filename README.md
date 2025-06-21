@@ -25,7 +25,6 @@ LockBox now integrates with Have I Been Pwned's (HIBP) API to check if your pass
 ## Installation
 
 ### Linux
-bash
 # 1. Install system dependencies
 ```
 sudo apt-get update
@@ -48,3 +47,60 @@ chmod +x lockbox.py
 # 5. Run (with sudo for proper permissions)
 sudo ./lockbox.py
 ```
+### Windows
+```
+# 1. Install Python 3 (run as Administrator)
+winget install Python.Python.3.10 --accept-package-agreements --accept-source-agreements
+```
+```
+# 2. Clone repository (requires git installed)
+git clone https://github.com/belalmostafaaa/lockbox.git
+cd lockbox
+```
+```
+# 3. Install dependencies
+python -m pip install cryptography pyperclip requests
+```
+```
+# 4. Run as Admin
+Start-Process python -ArgumentList "lockbox.py" -Verb RunAs
+```
+### macOS
+```
+# 1. Install Homebrew if not already installed
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+```
+# 2. Install dependencies
+brew install python-tk
+```
+```
+# 3. Clone the repository
+git clone https://github.com/belalmostafaaa/lockbox.git
+cd lockbox
+```
+```
+# 4. Install Python packages
+pip3 install cryptography pyperclip requests
+```
+```
+# 5. Run with sudo
+sudo python3 lockbox.py
+```
+## Running
+
+### Linux/macOS
+```
+sudo ./lockbox.py or sudo python3 lockbox.py
+```
+### Windows
+```
+python lockbox.py
+```
+
+## Notes:
+- The terminal or Powershell must be run as Administrator
+
+- Internet connection required for breach checking feature
+
+- No passwords are transmitted - only hash prefixes are checked
